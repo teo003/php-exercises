@@ -1,0 +1,31 @@
+Project 3 - Client Management System with PHP
+
+1)Στον φάκελο htdocs του XAMPP δημιουργούμε τον φάκελο clientms
+
+2)Αντιγράφουμε εντός αυτού τα έτοιμα αρχεία.
+
+3)Ξεκινάμε τα Apache και MySQL στο XAMPP και κάνουμε κλικ στο δεύτερο Admin.
+
+4)Δημιουργούμε την νέα βάση δεδομένων clientmsdb στην οποία και αντιγράφουμε το στοιχείο εντός του φάκελου database που δόθηκε.
+
+5)Γράφουμε τα αρχεία:
+	i)dbconnection.php (μέσα στον φάκελο includes).
+	ii)sidebar.php (τμήμα του αρχείου line 11 μέσα στον φάκελο includes).
+	iii)logout.php (μέσα στον φάκελο admin).
+	iv)dashboard.php (τμήμα του αρχείου line 2 μέσα στον φάκελο admin).
+	v)change-password.php (τμήμα του αρχείου line 2 μέσα στον φάκελο admin).
+
+6)Στον browser της επιλογής μας γράφουμε localhost/clientms
+
+7)Μπορούμε να κάνουμε εγγραφή (Register) και έπειτα σύνδεση (login) με το username και το password της επιλογής μας.
+*******Credential for admin panel**************************
+Username: admin
+Password: Test@123
+
+*************Credential for Client panel*******************
+Username: abc@gmail.com
+Password: Test@123
+
+or Register a new client.
+
+8)Τέλος μπορούμε να δούμε τα αποτελέσματα με βάση ότι υπάρχει στην βάση δεδομένων που χρησιμοποιήσαμε.
